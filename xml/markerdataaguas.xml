@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puntos>
+	<marker name="TRIPLE A" address="Baranoa" type="0109-211" lat="10.80000000000" lng="-74.91666666670"/>
+	<marker name="ALCALDIA MUNICIPAL DE CANDELARIA" address="Candelaria" type="0409-159" lat="10.45000000000" lng="-74.96666666670"/>
+	<marker name="ACUEDUCTO DE JUAN DE ACOSTA" address="Juan de Acosta" type="0627-074 0609-081" lat="10.83333333330" lng="-74.05000000000"/>
+	<marker name="PARQUE MAQUINARIA Y EQUIPOS S.A." address="Luruaco" type="0701-256" lat="10.60115555560" lng="-75.12493333330"/>
+	<marker name="CANTERA EL LIMON. AGREGADOS DE LA COSTA" address="Manati" type="0909-043" lat="10.42566666670" lng="-75.06177777780"/>
+	<marker name="ACERIAS DE COLOMBIA ACESCO & CIA S.C.A.SIDERURGICA" address="Palmar de Varela" type="1004-089" lat="10.66861111110" lng="-74.75611111110"/>
+	<marker name="EMPRESA DE ACUEDUCTO. ALCANTARILLADO Y ASEO DE PALMAR DE VARELA S.A." address="Palmar de Varela" type="1009-210" lat="10.73776944440" lng="-74.74751111110"/>
+	<marker name="EMPRESA DE ACUEDUCTO Y ALCANTARILLADO-REPELON" address="Repelon" type="1509-090" lat="10.47825000000" lng="-75.11219444440"/>
+	<marker name="MATADERO DE SABANAGRANDE" address="Sabanagrande" type="1627-045" lat="10.78981111110" lng="-74.75830277780"/>
+	<marker name="ACUACULTIVOS EL GUAJARO S.A." address="Sabanalarga" type="1709-021" lat="10.61250000000" lng="-75.05152777780"/>
+	<marker name="UNION TEMPORAL SYS-JA" address="Santa Lucia" type="1801-253" lat="10.31244444440" lng="-74.93891666670"/>
+	<marker name="EMPRESA DE ACUEDUCTO MUNICIPAL DE SU-N E.S.P." address="Suan" type="2127-054" lat="10.31961111110" lng="-74.88311111110"/>
+	<marker name="ORLANDO BLANCO PAREJO" address="Tubara" type="2201-241" lat="10.92225000000" lng="-74.99405555560"/>
+</puntos>

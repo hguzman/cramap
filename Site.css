@@ -1,0 +1,209 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+/*    background: url(img/fondoweb.jpg) 50% 0 no-repeat; */
+	background-color:#EBF1CB;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+table 
+{
+	border:1px  solid #e5eff8;
+	font-size:14px;
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+	margin: auto;
+	background-color:#FBFCF3;
+}
+table td
+{
+	border:1px solid #e5eff8;
+}
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+/********************************************
+   LAYOUT
+********************************************/ 
+#wrap {
+	height:650px;
+	width: 95%;
+/*	background: #CCC url(img/content.jpg) repeat-y center top;*/
+	margin: 0 auto;
+	text-align: left;
+/*    border: 1px solid #00FF00; /* Coloca un borde de color a la clase	*/
+}
+#content-wrap {
+	height:535px;
+	clear: both;
+	width: 100%;	
+	margin: 5px auto;
+	padding: 0; 
+ /*   border: 1px solid #0000FF; /* Coloca un borde de color a la clase */	
+}
+#map_canvas {
+	height:100%;
+	width:100%;
+	float:left; 
+	margin: 0 0 1em 0;
+	box-shadow: 2px 2px 2px #44550d;
+   -webkit-box-shadow: 2px 2px 2px #44550d;
+   -moz-box-shadow: 2px 2px 2px #44550d;
+/*    border: 1px solid #000; /* Coloca un borde de color a la clase */
+}
+#documentos {
+	height:50%;
+	width:91%;
+	margin: auto;
+    border: 1px solid #CED5D7; /* Coloca un borde de color a la clase*/
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+    padding: 45px 45px 45px; /* Aleja el objeto de los bordes */
+    margin-top: 30px; /* Separa del margen superior */
+    background-color: white;
+    box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+    moz-box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+    webkit-box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+/*    border: 1px solid #000; /* Coloca un borde de color a la clase */
+}
+#div1 {
+	height:380px;
+	width:180px;
+	position:absolute;
+	margin: auto;
+    border: 1px solid #CED5D7; /* Coloca un borde de color a la clase*/
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+    padding: 10px 10px 10px; /* Aleja el objeto de los bordes */
+    margin-top: 30px; /* Separa del margen superior */
+    background-color: white;
+    box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+    moz-box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+    webkit-box-shadow: 0px 5px 10px #44550d, 0 0 0 10px #FBFCF3 inset; /* Coloca 2 sombras en el cuadro */
+/*    border: 1px solid #000; /* Coloca un borde de color a la clase */
+}
+
+#header {
+/*	position: static; */
+	clear: both;	
+	height: 60px;
+/*	background: url(img/banner02.jpg) no-repeat center top; */
+	padding: 0;	
+/*    border: 5px solid #000; /* Coloca un borde de color a la clase*/
+}
+/* navegación */
+#menu {
+	clear: both;	
+	margin: 0 auto; padding: 0;
+/*	background: #d3d3d3 url(img/menu.png) repeat;	*/
+	font: 16px/40px "trebuchet MS", Arial, Tahoma, Sans-serif;
+	height: 40px;
+	width: 100%;
+	box-shadow: 2px 2px 2px #44550d;
+   -webkit-box-shadow: 2px 2px 2px #44550d;
+   -moz-box-shadow: 2px 2px 2px #44550d;
+}
+/* Main Column */
+#main {
+	float:left;
+	height:100%;
+	width: 100%;
+	margin: 0; 
+	padding: 0 0 0 0; 
+	display: inline;
+ /* border: 1px solid #FF0000; /* Coloca un borde de color a la clase */
+	/*background: url(../images/box.jpg) no-repeat; 	*/
+}
+
+/* Sidebar */	
+#sidebarl {
+	float: right;
+	width: 200px;
+	padding: 0; margin: 10px 0 0 0;	
+	color: #777;
+}	
+#sidebarl h2 {
+	margin: 15px 5px 10px 5px;
+	font: bold 1.4em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #555;	
+}
+#sidebarl p {
+	margin-left: 5px;
+}
+
+#sidebarl ul.sidemenu {
+	list-style: none;
+	text-align: left;
+	margin: 7px 10px 8px 0; padding: 0;
+	text-decoration: none;	
+	border-top: 1px solid #A9D4EF;	
+}
+#sidebarl ul.sidemenu li {
+	list-style: none;
+	padding: 4px 0 4px 5px;
+	margin: 0 2px;	
+	color: #777;	
+	border-bottom: 1px solid #D2E8F7; 
+	background-color:#68ac31;
+}
+* html body #sidebarl ul.sidemenu li {
+	height: 1%;
+}
+#sidebarl ul.sidemenu li a {
+	text-decoration: none;	
+	color: #000;				
+}
+#sidebarl ul.sidemenu li a:hover {
+	font-weight:bold;	
+	color: #333;
+}
+#sidebarl ul.sidemenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebarl ul.sidemenu ul li { border: none; }
+
+/* MISC  
+----------------------------------------------------------*/
+
+#side_bar
+{
+	width:330px;
+	height:150px;
+	overflow:auto;
+	float:left;
+	margin:0 2em 2em 0;
+	border:1px #000 solid;
+	position:static;
+}
+
+#side_bar2
+{
+	width:330px;
+	height:150px;
+	overflow:auto;
+	float:left;
+	margin:0 2em 8em 0;
+	border:1px solid #ddd;
+	top:170px;
+	position:static;
+}

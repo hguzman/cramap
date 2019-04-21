@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puntos>
+	<marker name="FRIGORIFICO COSTA NORTE" address="SACRIFICIO Y FAENADO DE GANADO BOVINO Y PORCINO" type="0102-106" lat="10.77437666240" lng="-74.90951987600"/>
+	<marker name="MATADERO DE BARANOA" address="SACRIFICIO DE RESES BOVINAS" type="0127-218" lat="10.77440383020" lng="-74.90950166580"/>
+	<marker name="MATADERO DE CAMPECHE" address="SACRIFICIO DE RESES BOVINAS" type="0109-172" lat="10.77476845370" lng="-74.90836900940"/>
+	<marker name="MATADERO DE CAMPO DE LA CRUZ" address="SACRIFICIO DE RESES BOVINAS" type="0327-285" lat="10.38164946070" lng="-74.89020078140"/>
+	<marker name="MATADERO DE CANDELARIA" address="SACRIFICIO DE RESES BOVINAS" type="0402-058" lat="10.38180358390" lng="-74.87923506440"/>
+	<marker name="VILLA EVA" address="PORCICOLA/CEBA" type="0127-352" lat="10.72655848780" lng="-74.91568699810"/>
+	<marker name="VILLA PARAISO" address="PORCICOLA /CEBA" type="0101-152" lat="10.78981872130" lng="-74.89847201220"/>
+	<marker name="EL RODEO" address="PORCICOLA/CEBA" type="0101-275" lat="10.71937577310" lng="-74.89727606300"/>
+	<marker name="LOS TRES CHONCHOS" address="PORCICOLA/CRIA" type="1427-073" lat="10.87164572860" lng="-75.06430481710"/>
+	<marker name="LA BENDICION" address="PORCICOLA/CEBA" type="0811-261" lat="10.84121666660" lng="-75.00602777740"/>
+	<marker name="YERBABUENA" address="PORCICOLA/CRIA" type="0927-102" lat="10.43708054650" lng="-74.95235295460"/>
+	<marker name="AGROPIOJO" address="PORCICOLA/CRIA" type="1101-289; 1102-159" lat="10.71042153850" lng="-75.13327968100"/>
+	<marker name="VILLA CLARITA" address="PORCICOLA/CRIA" type="1201-151" lat="10.74461354480" lng="-74.88384202590"/>
+	<marker name="LA GLORIA" address="PORCICOLA/CEBA" type="1201-152" lat="10.74474963740" lng="-74.88365041450"/>
+	<marker name="EL EDEN" address="PORCICOLA/CRIA" type="1027-353" lat="10.74399922210" lng="-74.76317065800"/>
+	<marker name="VILLA ADEGO" address="PORCICOLA/CRIA" type="2227-423" lat="10.91506238130" lng="-75.02378316030"/>
+</puntos>
